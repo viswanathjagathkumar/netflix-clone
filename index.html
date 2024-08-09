@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!-- fonts links -->
+     <!-- favicon -->
+      <link rel="icon" type="image/png" href="./images/logo.png">
+  </head>
+  <body>
+    <!-- nav -->
+    <header class="navbar">
+        <div id="nav" class="nav">
+          <img class="nav__logo" src="images/netflix-logo.png" alt="" />
+          <img class="nav__avatar" src="images/netflix-avatar.png" alt="" />
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">TV Shows</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">New & Popular</a></li>
+                <li><a href="#">My List</a></li>
+                <li><a href="#">Browse by Language</a></li>
+
+            </ul>
+        </nav>
+        <div class="icons">
+          <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+            <!-- <a href="#" class="bell-icon"><img src="https://static-00.iconduck.com/assets.00/search-icon-256x256-v6gfhlc1.png" alt="Notifications"></a> -->
+            <li><a href="#">Children</a></li>
+            <i class="fa-regular fa-bell" style="color: #ffffff;"></i>
+            <!-- <a href="#" class="bell-icon"><img src="" alt="Notifications"></a> -->
+            <img class="nav__avatar" src="images/netflix-avatar.png" alt="" />
+            <i class="fa-solid fa-angle-down" style="color: #ffffff;"></i>
+        </div>
+    </header>
+
+    <!-- header -->
+    <header class="banner">
+      <video autoplay loop muted plays-inline class="back-video">
+        <source src="./images/Anime _ Tengen vs Gyutaro Fight Scene.mp4">
+      </video>
+      <div class="banner__contents">
+        <h1 class="banner__title">Demon Slayer</h1>
+        <div class="banner__buttons">
+          <button class="banner__button">Play</button>
+          <button class="banner__button">My List</button>
+        </div>
+        <h1 class="banner__description">
+          Experience the epic saga of Tanjiro and Nezuko as they battle demons to save humanity. Dive into breathtaking animation, gripping storylines, and unforgettable characters in Demon Slayer on Netflix. N...
+        </h1>
+      </div>
+      <div class="banner--fadeBottom"></div>
+    </header>
+<br>
+    <!-- Netflix Originals -->
+    <div class="row">
+      <h2>NETFLIX ORIGINALS</h2>
+      <div class="row__posters">
+        <img class="row__poster row__posterLarge" src="images/large-movie1.jpg" alt="" />
+
+        <img class="row__poster row__posterLarge" src="images/large-movie2.jpg" alt="" />
+
+        <img class="row__poster row__posterLarge" src="images/large-movie3.jpg" alt="" />
+
+        <img class="row__poster row__posterLarge" src="images/large-movie4.jpg" alt="" />
+
+        <img class="row__poster row__posterLarge" src="images/large-movie5.jpg" alt="" />
+
+        <img class="row__poster row__posterLarge" src="images/large-movie6.jpg" alt="" />
+
+        <img class="row__poster row__posterLarge" src="images/large-movie7.jpg" alt="" />
+
+        <img class="row__poster row__posterLarge" src="images/large-movie8.jpg" alt="" />
+
+        <img class="row__poster row__posterLarge" src="images/large-movie9.jpg" alt="" />
+
+        <img class="row__poster row__posterLarge" src="images/large-movie10.jpg" alt="" />
+      </div>
+    </div>
+
+    <!-- Trending Now -->
+    <div class="row">
+      <h2>Trending Now</h2>
+      <div class="row__posters">
+        <img class="row__poster" src="images/t1.jpg" alt="" />
+
+        <img class="row__poster" src="images/t2.jpg" alt="" />
+
+        <img class="row__poster" src="images/t3.jpg" alt="" />
+
+        <img class="row__poster" src="images/t4.jpg" alt="" />
+
+        <img class="row__poster" src="images/t5.jpg" alt="" />
+
+        <img class="row__poster" src="images/t6.jpg" alt="" />
+
+        <img class="row__poster" src="images/t7.jpg" alt="" />
+
+        <img class="row__poster" src="images/t8.jpg" alt="" />
+      </div>
+    </div>
+
+    <!-- top 10 -->
+    <section class="top-10-section">
+      <h2>Top 10 Movies in Your Country Today</h2>
+      <div class="top-10-slider">
+          <div class="top-10-item">
+              <div class="rank">1</div>
+              <img class="top-poster" src="./images/large-movie1.jpg" alt="Top 1">
+          </div>
+          <div class="top-10-item">
+              <div class="rank">2</div>
+              <img class="top-poster" src="./images/large-movie5.jpg" alt="Top 2">
+          </div>
+          <div class="top-10-item">
+              <div class="rank">3</div>
+              <img class="top-poster" src="./images/large-movie11.jpg" alt="Top 3">
+          </div>
+          <!-- Add more items up to 10 -->
+          <div class="top-10-item">
+              <div class="rank">4</div>
+              <img class="top-poster" src="./images/large-movie2.jpg" alt="Top 4">
+          </div>
+          <div class="top-10-item">
+              <div class="rank">5</div>
+              <img class="top-poster" src="images/large-movie6.jpg" alt="Top 5">
+          </div>
+          <div class="top-10-item">
+              <div class="rank">6</div>
+              <img class="top-poster" src="./images/large-movie12.jpg" alt="Top 6">
+          </div>
+          <div class="top-10-item">
+              <div class="rank">7</div>
+              <img class="top-poster" src="./images/large-movie.jpg" alt="Top 7">
+          </div>
+          <div class="top-10-item">
+              <div class="rank">8</div>
+              <img class="top-poster" src="./images/large-movie7.jpg" alt="Top 8">
+          </div>
+          <div class="top-10-item">
+              <div class="rank">9</div>
+              <img class="top-poster" src="./images/large-movie4.jpg" alt="Top 9">
+          </div>
+          <div class="top-10-item">
+              <div class="rank">10</div>
+              <img class="top-poster" src="./images/large-movie8.jpg" alt="Top 10">
+          </div>
+      </div>
+  </section>
+
+    <!-- Top Rated -->
+    <div class="row">
+      <h2>We Think You'll Love These</h2>
+      <div class="row__posters">
+        <img class="row__poster" src="images/top1.jpg" alt="" />
+
+        <img class="row__poster" src="images/top2.jpg" alt="" />
+
+        <img class="row__poster" src="images/top3.jpg" alt="" />
+
+        <img class="row__poster" src="images/top4.jpg" alt="" />
+
+        <img class="row__poster" src="images/top5.jpg" alt="" />
+
+        <img class="row__poster" src="images/top6.webp" alt="" />
+
+        <img class="row__poster" src="images/top7.webp" alt="" />
+
+        <img class="row__poster" src="images/top8.jpg" alt="" />
+      </div>
+    </div>
+
+    <!-- Action Movies -->
+    <div class="row">
+      <h2>Top Anime List's</h2>
+      <div class="row__posters">
+        <img class="row__poster" src="images/an1.jpg" alt="" />
+
+        <img class="row__poster" src="images/an2.jpg" alt="" />
+
+        <img class="row__poster" src="images/an3.jpg" alt="" />
+
+        <img class="row__poster" src="images/an4.jpg" alt="" />
+
+        <img class="row__poster" src="images/an5.jpg" alt="" />
+
+        <img class="row__poster" src="images/an6.jpg" alt="" />
+
+        <img class="row__poster" src="images/an7.jpg" alt="" />
+
+        <img class="row__poster" src="images/an8.jpg" alt="" />
+      </div>
+    </div>
+
+    <!-- Comedy Movies -->
+    <div class="row">
+      <h2>Action & Adventure Movies</h2>
+      <div class="row__posters">
+        <img class="row__poster" src="images/at1.jpg" alt="" />
+
+        <img class="row__poster" src="images/at2.jpg" alt="" />
+
+        <img class="row__poster" src="images/at3.jpg" alt="" />
+
+        <img class="row__poster" src="images/at4.jpg" alt="" />
+
+        <img class="row__poster" src="images/at5.jpg" alt="" />
+
+        <img class="row__poster" src="images/at6.jpg" alt="" />
+
+        <img class="row__poster" src="images/at7.jpg" alt="" />
+
+        <img class="row__poster" src="images/at8.jpg" alt="" />
+      </div>
+    </div>
+
+    <!-- Horror Movies -->
+    <div class="row">
+      <h2>Horror Movies</h2>
+      <div class="row__posters">
+        <img class="row__poster" src="images/ho1.jpg" alt="" />
+
+        <img class="row__poster" src="images/ho2.webp" alt="" />
+
+        <img class="row__poster" src="images/ho3.jpg" alt="" />
+
+        <img class="row__poster" src="images/ho4.jpg" alt="" />
+
+        <img class="row__poster" src="images/ho5.jpg" alt="" />
+
+        <img class="row__poster" src="images/ho6.jpg" alt="" />
+
+        <img class="row__poster" src="images/ho7.jpg" alt="" />
+
+        <img class="row__poster" src="images/ho8.jpg" alt="" />
+      </div>
+    </div>
+
+    <!-- Romance Movies -->
+    <div class="row">
+      <h2>Only on Netflix</h2>
+      <div class="row__posters">
+        <img class="row__poster" src="images/net1.jpg" alt="" />
+
+        <img class="row__poster" src="images/net2.webp" alt="" />
+
+        <img class="row__poster" src="images/net3.jpg" alt="" />
+
+        <img class="row__poster" src="images/net4.webp" alt="" />
+
+        <img class="row__poster" src="images/net5.jpg" alt="" />
+
+        <img class="row__poster" src="images/net6.jpg" alt="" />
+
+        <img class="row__poster" src="images/net7.avif" alt="" />
+
+        <img class="row__poster" src="images/net8.jpg" alt="" />
+      </div>
+    </div>
+
+    <!-- Documentaries -->
+    <div class="row">
+      <h2>Award Winning International TV Shows</h2>
+      <div class="row__posters">
+        <img class="row__poster" src="images/aw1.webp" alt="" />
+
+        <img class="row__poster" src="images/aw2.jpg" alt="" />
+
+        <img class="row__poster" src="images/aw3.webp" alt="" />
+
+        <img class="row__poster" src="images/aw4.jpg" alt="" />
+
+        <img class="row__poster" src="images/aw5.jpg" alt="" />
+
+        <img class="row__poster" src="images/aw6.jpg" alt="" />
+
+        <img class="row__poster" src="images/small-movie7.jpg" alt="" />
+
+        <img class="row__poster" src="images/aw8.jpg" alt="" />
+      </div>
+    </div>
+    
+    <!-- top 10 -->
+    <section class="top-10-section">
+      <h2>Top 10 Pick's for You</h2>
+      <div class="top-10-slider">
+          <div class="top-10-item">
+              <div class="rank">1</div>
+              <img class="top-poster" src="./images/2top1.jpg" alt="Top 1">
+          </div>
+          <div class="top-10-item">
+              <div class="rank">2</div>
+              <img class="top-poster" src="./images/2top2.jpg" alt="Top 2">
+          </div>
+          <div class="top-10-item">
+              <div class="rank">3</div>
+              <img class="top-poster" src="./images/2top3.jpg" alt="Top 3">
+          </div>
+          <!-- Add more items up to 10 -->
+          <div class="top-10-item">
+              <div class="rank">4</div>
+              <img class="top-poster" src="./images/2top4.jpg" alt="Top 4">
+          </div>
+          <div class="top-10-item">
+              <div class="rank">5</div>
+              <img class="top-poster" src="images/2top5.jpg" alt="Top 5">
+          </div>
+          <div class="top-10-item">
+              <div class="rank">6</div>
+              <img class="top-poster" src="./images/2top6.webp" alt="Top 6">
+          </div>
+          <div class="top-10-item">
+              <div class="rank">7</div>
+              <img class="top-poster" src="./images/2top7.jpg" alt="Top 7">
+          </div>
+          <div class="top-10-item">
+              <div class="rank">8</div>
+              <img class="top-poster" src="./images/2top8.jpg" alt="Top 8">
+          </div>
+          <div class="top-10-item">
+              <div class="rank">9</div>
+              <img class="top-poster" src="./images/2top9.jpg" alt="Top 9">
+          </div>
+          <div class="top-10-item">
+              <div class="rank">10</div>
+              <img class="top-poster" src="./images/2top10.jpg" alt="Top 10">
+          </div>
+      </div>
+  </section>
+
+
+  <!-- Documentaries -->
+  <div class="row">
+    <h2>Marvel Collections</h2>
+    <div class="row__posters">
+      <img class="row__poster" src="images/l1.jpg" alt="" />
+
+      <img class="row__poster" src="images/l2.jpg" alt="" />
+
+      <img class="row__poster" src="images/l3.jpg" alt="" />
+
+      <img class="row__poster" src="images/l4.jpg" alt="" />
+
+      <img class="row__poster" src="images/l5.jpg" alt="" />
+
+      <img class="row__poster" src="images/l6.jpg" alt="" />
+
+      <img class="row__poster" src="images/l7.jpg" alt="" />
+
+      <img class="row__poster" src="images/l8.webp" alt="" />
+    </div>
+  </div>
+    
+    <footer>
+      <div class="footer-container">
+        <div class="footer-links">
+          <a href="#">Audio and Subtitles</a>
+          <a href="#">Help Center</a>
+          <a href="#">Gift Cards</a>
+          <a href="#">Media Center</a>
+          <a href="#">Investor Relations</a>
+          <a href="#">Jobs</a>
+          <a href="#">Terms of Use</a>
+          <a href="#">Privacy</a>
+          <a href="#">Legal Notices</a>
+          <a href="#">Corporate Information</a>
+          <a href="#">Contact Us</a>
+        </div>
+        <div class="footer-social">
+          <a href="#"><i class="fab fa-facebook-square"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="footer-copyright">
+          <p>&copy; 2024 Your Netflix Clone. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const nav = document.getElementById('nav');
+      window.addEventListener('scroll', () => {
+        if (window.scrollY >= 100) {
+          nav.classList.add('nav__black');
+        } else {
+          nav.classList.remove('nav__black');
+        }
+      });
+    </script>
+  </body>
+</html>
